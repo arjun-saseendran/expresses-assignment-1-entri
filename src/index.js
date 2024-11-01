@@ -9,8 +9,8 @@ app.get('/', (request, response)=>{
 app.post('/', (request, response)=>{
     response.statusCode(201).send('Created')
 })
-app.get('/', (request, response)=>{
-    response.statusCode(200).send('OK')
+app.put('/', (request, response)=>{
+    response.statusCode(202).send('Accepted')
 })
 app.get('/', (request, response)=>{
     response.statusCode(200).send('OK')
